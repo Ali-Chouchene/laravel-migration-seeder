@@ -1,0 +1,27 @@
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+#home {
+    height: 200vh;
+    width: 99vw;
+    background-repeat: no-repeat;
+    // object-fit: contain;
+    background-size: cover;
+    background-image: url(https://www.rappler.com/tachyon/2021/01/lrt1-new-train-012621.jpg);
+    opacity: 0.75;
+    background-position: right;
+
+    .col {
+        flex-shrink: 1;
+
+        .card {
+            height: 100%;
+        }
+    }
+
+}
